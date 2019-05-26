@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+
+.nav-link{
+    color: #fff;
+}
+.navbar-toggler{
+    border-color: #fff;
+}
+.home{    
+    background: url(images/Rectangle1.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-position: bottom; 
+     
+}
+.store a{
+    margin-top: 50px; 
+}
+.try-for-free{
+    border-radius: 30px;
+
+}
+.app-play{
+    border-radius: 30px;
+}
+
+
+
+
+/* About the App */
+.kvadrat{
+    background: #00000030;
+    width: 94.85px;
+    height: 94.85px ;
+    margin: 0 auto;
+    margin-top: 30px;
+    transform: rotate(45deg);
+    transition: 0.5s;
+  
+}
+
+.kvadrat:hover{
+   background: #29E4B7;
+}
+.kvadrat img{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transform: rotate(-45deg);
+   
+}
+.slusalice, .aparat, .strelica{
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    margin: 30px;
+}
+
+
+/* Features */
+.feature-section {
+    background: url(images/features-shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 15rem;
+    background-position: bottom;
+    color: #fff;
+}
+#slider.carousel{
+    position: absolute;
+    top: 95px;
+    left: 48px;
+   
+}
+#slider .carousel-item img{
+    width: 321px;
+    height: 560px;
+   
+}
+
+.krug{
+    border-radius: 50%;
+    background-color: #fff;
+}
+img{
+    vertical-align: middle;
+}
+
+
+/* Purchase */
+.mb-resp {
+    margin-bottom: 2rem;
+}
+.purchase{
+    border-radius: 30px;
+}
+.price{
+    border-radius: 20px;
+}
+.price a{
+    border-color: #202646;
+}
+.price:hover{   
+    border-radius: initial;
+    background-color: #202646;
+    transform: scale(1.1)
+}
+.price:hover p{
+    color: #fff
+}
+.price:hover a{   
+    border: 1px solid #f7f6f6;
+    color: #202646;
+    background-color: #f7f6f6;
+    color: #29E4B7;
+}
+/* Forma */
+#form input,#form textarea{
+    border-radius: initial;
+}
+.send_message{
+    background-color: #29E4B7;
+    color: #f7f6f6;
+}
+.info{
+    background-color: white;
+}
+.mb-sm{
+    margin-bottom: 1rem;
+}
+/* Footer */
+.footer.jumbotron{
+    background-color: #202646;
+}
+.info{
+    background-color: #fff;
+}
