@@ -77,22 +77,9 @@
 
 
 /* Some talk from our clients */
-#authors .jumbotron{
-    background-color: #202646; 
-}
-.info-header {
-    /* width: 50%; */
-    margin: auto;
-    border-bottom: 1px #ddd solid; 
-}
-#authors img {
-    margin-top: -50px; 
-}
-.kartice .card{
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-}
+
+
+
 
 
 /* Features */
@@ -105,28 +92,31 @@
     background-position: bottom;
     color: #fff;
 }
-#slider.carousel{
-    position: absolute;
-    top: 95px;
-    left: 48px;
-   
+
+
+.placeholder{
+    background: url(images/telefon-slajder.png);
+    width: 350px;
+    height: 710px;
 }
-#slider .carousel-item img{
+
+.slider-holder{
     width: 321px;
     height: 560px;
-   
+    background-color: #fff;
 }
-.carousel-item img{
-   max-width: 100%;
-   height: auto;
+
+#slider,.carousel2,.carousel-item .tel-slide{
+   /* max-width: 100%;
+   height: auto; */
+   width: 321px;
+    height: 560px;
 }
 .krug{
     border-radius: 50%;
     background-color: #fff;
 }
-img{
-    vertical-align: middle;
-}
+
 
 
 /* Purchase */
